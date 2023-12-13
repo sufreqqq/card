@@ -91,12 +91,6 @@ const takeCard = () => {
     botSetValue(0)
   }
 
-const pass = () => {
-  setGameOver(true);
-  const randomBotCard = cards[Math.floor(Math.random() * cards.length)];
-  setActiveBotCards((activeBotCards) => [...activeBotCards, randomBotCard]);
-  botSetValue((botValue) => (botValue + randomBotCard.value <= 21 ? botValue + randomBotCard.value : botValue + 1));
-};
 
 useEffect(() => {
   if (!gameOver) {
