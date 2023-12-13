@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: url("../../public/background.jpg");
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 50vh;
+    height: 50vh;
+    color: #ffffff;
+    padding: 24px;
+}
+
+.container h1{
+    text-align: center;
+}
